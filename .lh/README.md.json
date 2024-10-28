@@ -1,0 +1,18 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1730149386384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1730149386384,
+            "name": "Commit-0",
+            "content": "# Energy Monitoring System\r\n\r\nA comprehensive system for monitoring and analyzing energy consumption using Non-Intrusive Load Monitoring (NILM) techniques.\r\n\r\n## Project Structure\r\n\r\n- `backend/`: Python FastAPI backend\r\n  - `app/`: Main application code\r\n  - `tests/`: Test files\r\n- `frontend/`: React frontend application\r\n- `docs/`: Project documentation\r\n\r\n## Setup Instructions\r\n\r\n### Backend Setup\r\n1. Create a virtual environment:\r\n```bash\r\ncd backend\r\npython -m venv venv\r\nsource venv/bin/activate  # On Windows: venv\\Scripts\\activate\r\n```\r\n\r\n2. Install dependencies:\r\n```bash\r\npip install -r requirements.txt\r\n```\r\n\r\n### Frontend Setup\r\n1. Install dependencies:\r\n```bash\r\ncd frontend\r\nnpm install\r\n```\r\n\r\n## Development\r\n\r\n### Running the Backend\r\n```bash\r\ncd backend\r\nuvicorn app.main:app --reload\r\n```\r\n\r\n### Running the Frontend\r\n```bash\r\ncd frontend\r\nnpm start\r\n```\r\n\r\n## Contributing\r\n\r\n1. Create a new branch for your feature\r\n2. Make your changes\r\n3. Submit a pull request\r\n\r\n## License\r\n\r\n[Your chosen license]"
+        }
+    ]
+}

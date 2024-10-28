@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".gitignore",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1730149369999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1730149369999,
+            "name": "Commit-0",
+            "content": "# Python\r\n__pycache__/\r\n*.py[cod]\r\n*$py.class\r\n*.so\r\n.Python\r\nenv/\r\nbuild/\r\ndevelop-eggs/\r\ndist/\r\ndownloads/\r\neggs/\r\n.eggs/\r\nlib/\r\nlib64/\r\nparts/\r\nsdist/\r\nvar/\r\nwheels/\r\n*.egg-info/\r\n.installed.cfg\r\n*.egg\r\n.env\r\nvenv/\r\n\r\n# Node/React\r\nnode_modules/\r\n/frontend/build\r\n.DS_Store\r\n.env.local\r\n.env.development.local\r\n.env.test.local\r\n.env.production.local\r\nnpm-debug.log*\r\nyarn-debug.log*\r\nyarn-error.log*\r\n\r\n# IDE specific files\r\n.idea/\r\n.vscode/\r\n*.swp\r\n*.swo\r\n\r\n# Project specific\r\n*.log\r\ndata/\r\n/backend/app/static/"
+        }
+    ]
+}
